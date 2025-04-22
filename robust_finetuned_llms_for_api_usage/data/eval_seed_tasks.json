@@ -1,0 +1,152 @@
+[
+  {
+    "api_name": "df.merge",
+    "instruction": "merge two pandas DataFrames on a common key",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.groupby",
+    "instruction": "group a DataFrame by a column and compute the mean",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.pivot",
+    "instruction": "pivot a DataFrame with new index and columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.apply",
+    "instruction": "apply a function to each row of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.loc",
+    "instruction": "select specific rows and columns from a DataFrame using labels",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.dropna",
+    "instruction": "remove rows with missing values from a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.fillna",
+    "instruction": "fill missing values in a DataFrame with a specified value",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.sort_values",
+    "instruction": "sort a DataFrame by one or more columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.query",
+    "instruction": "filter a DataFrame using a condition",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.duplicated",
+    "instruction": "identify duplicate rows in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.value_counts",
+    "instruction": "count unique values in a column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.astype",
+    "instruction": "change the data type of a column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.replace",
+    "instruction": "replace specific values in a column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.set_index",
+    "instruction": "set a column as the index of the DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.reset_index",
+    "instruction": "reset the index of the DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.rename",
+    "instruction": "rename columns in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.concat",
+    "instruction": "concatenate multiple DataFrames",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.isnull",
+    "instruction": "check for missing values in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.sample",
+    "instruction": "randomly sample rows from a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.nunique",
+    "instruction": "count the number of unique values per column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.to_csv",
+    "instruction": "export a DataFrame to a CSV file",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.from_dict",
+    "instruction": "create a DataFrame from a dictionary",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.columns",
+    "instruction": "access the column names of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.index",
+    "instruction": "access the index of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.memory_usage",
+    "instruction": "get memory usage of a DataFrame",
+    "input": "",
+    "output": ""
+  }
+]

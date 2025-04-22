@@ -1,0 +1,548 @@
+[
+  {
+    "api_name": "df.head",
+    "instruction": "display the first few rows of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.tail",
+    "instruction": "display the last few rows of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.describe",
+    "instruction": "generate descriptive statistics of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.info",
+    "instruction": "print summary information about a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.corr",
+    "instruction": "compute pairwise correlation of columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cov",
+    "instruction": "compute pairwise covariance of columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.diff",
+    "instruction": "calculate the difference of a DataFrame element compared with another element",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.rank",
+    "instruction": "compute numerical data ranks along axis",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.rolling",
+    "instruction": "provide rolling window calculations",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.expanding",
+    "instruction": "provide expanding window calculations",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.ewm",
+    "instruction": "provide exponential weighted functions",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.interpolate",
+    "instruction": "interpolate missing values",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.bfill",
+    "instruction": "fill missing values using backward fill",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.ffill",
+    "instruction": "fill missing values using forward fill",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cumsum",
+    "instruction": "compute cumulative sum",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cumprod",
+    "instruction": "compute cumulative product",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cummax",
+    "instruction": "compute cumulative maximum",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cummin",
+    "instruction": "compute cumulative minimum",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.clip",
+    "instruction": "trim values at input thresholds",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.mask",
+    "instruction": "replace values where condition is True",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.where",
+    "instruction": "replace values where condition is False",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.select_dtypes",
+    "instruction": "select columns based on data types",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.insert",
+    "instruction": "insert a column into a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.drop",
+    "instruction": "drop specified labels from rows or columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.pop",
+    "instruction": "remove and return a column from a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.equals",
+    "instruction": "test if two DataFrames are equal",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.iterrows",
+    "instruction": "iterate over DataFrame rows as (index, Series)",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.itertuples",
+    "instruction": "iterate over DataFrame rows as namedtuples",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.pipe",
+    "instruction": "apply a function chain-style",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.sort_index",
+    "instruction": "sort a DataFrame by its index",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.swapaxes",
+    "instruction": "interchange axes",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.transpose",
+    "instruction": "transpose the rows and columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.T",
+    "instruction": "transpose the rows and columns (shortcut)",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.nlargest",
+    "instruction": "return the largest n elements",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.nsmallest",
+    "instruction": "return the smallest n elements",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.style",
+    "instruction": "access the Styler object to style the DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.to_dict",
+    "instruction": "convert a DataFrame to a dictionary",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.to_numpy",
+    "instruction": "convert the DataFrame to a NumPy array",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.to_excel",
+    "instruction": "write a DataFrame to an Excel file",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.corr",
+    "instruction": "compute pairwise correlation of columns in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cov",
+    "instruction": "compute pairwise covariance of columns in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.rank",
+    "instruction": "rank elements within each column of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.mode",
+    "instruction": "get the mode of each column in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.describe",
+    "instruction": "generate descriptive statistics for a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.hist",
+    "instruction": "plot histogram of DataFrame columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.boxplot",
+    "instruction": "draw a boxplot from DataFrame columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.plot",
+    "instruction": "plot data from a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.diff",
+    "instruction": "calculate the difference of a DataFrame element compared with another element in the same column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.pct_change",
+    "instruction": "calculate percentage change between the current and a prior element",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cumsum",
+    "instruction": "compute cumulative sum of DataFrame columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cumprod",
+    "instruction": "compute cumulative product of DataFrame columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.eval",
+    "instruction": "evaluate an expression in the context of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.explode",
+    "instruction": "transform each element of a list-like to a row",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.mask",
+    "instruction": "replace values where a condition is True",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.aggregate",
+    "instruction": "apply one or more operations over the specified axis of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.transform",
+    "instruction": "apply a function to each group and return a DataFrame with the same shape",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.bfill",
+    "instruction": "backward fill missing values in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.ffill",
+    "instruction": "forward fill missing values in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.clip",
+    "instruction": "limit values in a DataFrame to a specified range",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.reindex",
+    "instruction": "conform a DataFrame to a new index",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.insert",
+    "instruction": "insert a column into a DataFrame at a specified location",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.pop",
+    "instruction": "remove a column from a DataFrame and return it",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.drop_duplicates",
+    "instruction": "remove duplicate rows from a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.memory_usage",
+    "instruction": "return memory usage of each column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.nsmallest",
+    "instruction": "return the first n rows ordered by columns in ascending order",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.nlargest",
+    "instruction": "return the first n rows ordered by columns in descending order",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.where",
+    "instruction": "replace values where the condition is False",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.align",
+    "instruction": "align two objects on their axes with specified join method",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.compare",
+    "instruction": "compare two DataFrames and show the differences",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.combine_first",
+    "instruction": "update null elements with value in the same location from another DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.update",
+    "instruction": "update a DataFrame in place using non-null values from another DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.corrwith",
+    "instruction": "compute pairwise correlation with another DataFrame or Series",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.select_dtypes",
+    "instruction": "return a subset of the DataFrame including/excluding columns of specific data types",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.isin",
+    "instruction": "check whether each element in the DataFrame is contained in values",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.duplicated",
+    "instruction": "find duplicate rows in a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.truncate",
+    "instruction": "truncate a DataFrame before and after some index value",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.applymap",
+    "instruction": "apply a function to a DataFrame elementwise",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.pipe",
+    "instruction": "apply a function or method to a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.convert_dtypes",
+    "instruction": "convert columns to best possible dtypes",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.cov",
+    "instruction": "compute pairwise covariance of columns",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.mode",
+    "instruction": "return the mode(s) of each column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.rank",
+    "instruction": "compute numerical data ranks along axis",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.describe",
+    "instruction": "generate descriptive statistics of a DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.itertuples",
+    "instruction": "iterate over DataFrame rows as namedtuples",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.memory_usage",
+    "instruction": "get memory usage of each column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.empty",
+    "instruction": "check if the DataFrame is empty",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.equals",
+    "instruction": "test if two DataFrames are element-wise equal",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.pop",
+    "instruction": "remove and return a column from the DataFrame",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.all",
+    "instruction": "check if all elements are True in each column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.any",
+    "instruction": "check if any element is True in each column",
+    "input": "",
+    "output": ""
+  },
+  {
+    "api_name": "df.dot",
+    "instruction": "compute the matrix multiplication between DataFrame and another",
+    "input": "",
+    "output": ""
+  }
+]

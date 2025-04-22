@@ -1,0 +1,94 @@
+api_name,base_prompt
+df.head,display the first few rows of a DataFrame
+df.tail,display the last few rows of a DataFrame
+df.describe,generate descriptive statistics of a DataFrame
+df.info,print summary information about a DataFrame
+df.corr,compute pairwise correlation of columns
+df.cov,compute pairwise covariance of columns
+df.diff,calculate the difference of a DataFrame element compared with another element
+df.rank,compute numerical data ranks along axis
+df.rolling,provide rolling window calculations
+df.expanding,provide expanding window calculations
+df.ewm,provide exponential weighted functions
+df.interpolate,interpolate missing values
+df.bfill,fill missing values using backward fill
+df.ffill,fill missing values using forward fill
+df.cumsum,compute cumulative sum
+df.cumprod,compute cumulative product
+df.cummax,compute cumulative maximum
+df.cummin,compute cumulative minimum
+df.clip,trim values at input thresholds
+df.mask,replace values where condition is True
+df.where,replace values where condition is False
+df.select_dtypes,select columns based on data types
+df.insert,insert a column into a DataFrame
+df.drop,drop specified labels from rows or columns
+df.pop,remove and return a column from a DataFrame
+df.equals,test if two DataFrames are equal
+df.iterrows,"iterate over DataFrame rows as (index, Series)"
+df.itertuples,iterate over DataFrame rows as namedtuples
+df.pipe,apply a function chain-style
+df.sort_index,sort a DataFrame by its index
+df.swapaxes,interchange axes
+df.transpose,transpose the rows and columns
+df.T,transpose the rows and columns (shortcut)
+df.nlargest,return the largest n elements
+df.nsmallest,return the smallest n elements
+df.style,access the Styler object to style the DataFrame
+df.to_dict,convert a DataFrame to a dictionary
+df.to_numpy,convert the DataFrame to a NumPy array
+df.to_excel,write a DataFrame to an Excel file
+df.corr,compute pairwise correlation of columns in a DataFrame
+df.cov,compute pairwise covariance of columns in a DataFrame
+df.rank,rank elements within each column of a DataFrame
+df.mode,get the mode of each column in a DataFrame
+df.describe,generate descriptive statistics for a DataFrame
+df.hist,plot histogram of DataFrame columns
+df.boxplot,draw a boxplot from DataFrame columns
+df.plot,plot data from a DataFrame
+df.diff,calculate the difference of a DataFrame element compared with another element in the same column
+df.pct_change,calculate percentage change between the current and a prior element
+df.cumsum,compute cumulative sum of DataFrame columns
+df.cumprod,compute cumulative product of DataFrame columns
+df.eval,evaluate an expression in the context of a DataFrame
+df.explode,transform each element of a list-like to a row
+df.mask,replace values where a condition is True
+df.aggregate,apply one or more operations over the specified axis of a DataFrame
+df.transform,apply a function to each group and return a DataFrame with the same shape
+df.bfill,backward fill missing values in a DataFrame
+df.ffill,forward fill missing values in a DataFrame
+df.clip,limit values in a DataFrame to a specified range
+df.reindex,conform a DataFrame to a new index
+df.insert,insert a column into a DataFrame at a specified location
+df.pop,remove a column from a DataFrame and return it
+df.drop_duplicates,remove duplicate rows from a DataFrame
+df.memory_usage,return memory usage of each column
+df.nsmallest,return the first n rows ordered by columns in ascending order
+df.nlargest,return the first n rows ordered by columns in descending order
+df.where,replace values where the condition is False
+df.align,align two objects on their axes with specified join method
+df.compare,compare two DataFrames and show the differences
+df.combine_first,update null elements with value in the same location from another DataFrame
+df.update,update a DataFrame in place using non-null values from another DataFrame
+df.corrwith,compute pairwise correlation with another DataFrame or Series
+df.select_dtypes,return a subset of the DataFrame including/excluding columns of specific data types
+df.isin,check whether each element in the DataFrame is contained in values
+df.duplicated,find duplicate rows in a DataFrame
+df.truncate,truncate a DataFrame before and after some index value
+df.applymap,apply a function to a DataFrame elementwise
+df.pipe,apply a function or method to a DataFrame
+df.convert_dtypes,convert columns to best possible dtypes
+df.cov,compute pairwise covariance of columns
+df.mode,return the mode(s) of each column
+df.rank,compute numerical data ranks along axis
+df.describe,generate descriptive statistics of a DataFrame
+df.itertuples,iterate over DataFrame rows as namedtuples
+df.memory_usage,get memory usage of each column
+df.empty,check if the DataFrame is empty
+df.equals,test if two DataFrames are element-wise equal
+df.pop,remove and return a column from the DataFrame
+df.all,check if all elements are True in each column
+df.any,check if any element is True in each column
+df.dot,compute the matrix multiplication between DataFrame and another
+
+

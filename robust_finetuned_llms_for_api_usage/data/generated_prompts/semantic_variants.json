@@ -1,0 +1,402 @@
+[
+  {
+    "api_name": "df.merge",
+    "instruction": "merge two pandas DataFrames on a common key",
+    "variants": [
+      "Combine two pandas DataFrames using a shared key column.",
+      "Join two DataFrames in pandas based on a common column.",
+      "Perform a merge operation on two pandas DataFrames using a matching key.",
+      "Merge two DataFrames by aligning rows with identical keys.",
+      "Use pandas to concatenate two DataFrames along a common key column.",
+      "Inner join two pandas DataFrames on a shared identifier.",
+      "Link two DataFrames in pandas by merging them on a mutual key.",
+      "Combine two DataFrames by matching values in a key column.",
+      "Execute a DataFrame merge in pandas using a common field.",
+      "Align and merge two pandas DataFrames based on a shared column."
+    ]
+  },
+  {
+    "api_name": "df.groupby",
+    "instruction": "group a DataFrame by a column and compute the mean",
+    "variants": [
+      "Compute the average after grouping a DataFrame by a specific column.",
+      "Group the DataFrame by a column and calculate the mean values.",
+      "Aggregate a DataFrame by a column and find the mean.",
+      "Calculate the mean for each group after grouping a DataFrame by a column.",
+      "Summarize a DataFrame by a column using the mean.",
+      "Split a DataFrame by a column and compute the average for each group.",
+      "Apply the mean function to a DataFrame grouped by a column.",
+      "Perform a group-by operation on a DataFrame and derive the mean.",
+      "Group rows in a DataFrame by a column and determine the mean.",
+      "Use the group-by method on a DataFrame and compute the mean values."
+    ]
+  },
+  {
+    "api_name": "df.pivot",
+    "instruction": "pivot a DataFrame with new index and columns",
+    "variants": [
+      "Transform a DataFrame into a pivoted layout with specified index and columns.",
+      "Reshape a DataFrame by setting new index and column labels using pivot.",
+      "Use the pivot function to reorganize a DataFrame with custom index and columns.",
+      "Convert a DataFrame into a pivot table with designated index and column fields.",
+      "Rearrange a DataFrame by pivoting it around new index and column values.",
+      "Apply a pivot operation to a DataFrame to redefine its index and columns.",
+      "Reconfigure a DataFrame by pivoting it with updated index and column parameters.",
+      "Restructure a DataFrame using pivot, assigning new index and column identifiers.",
+      "Perform a pivot transformation on a DataFrame to modify its index and columns.",
+      "Flip a DataFrame into a new format with specified index and column mappings."
+    ]
+  },
+  {
+    "api_name": "df.apply",
+    "instruction": "apply a function to each row of a DataFrame",
+    "variants": [
+      "Execute a function on every row in a DataFrame.",
+      "Perform a function operation for each row in the DataFrame.",
+      "Iterate over each row in the DataFrame and apply a function.",
+      "Use a function to process every row of the DataFrame.",
+      "Map a function across all rows of the DataFrame.",
+      "For each row in the DataFrame, run a specified function.",
+      "Apply a custom function row-wise to the DataFrame.",
+      "Process the DataFrame row by row using a given function.",
+      "Transform each row in the DataFrame by applying a function.",
+      "Evaluate a function on every individual row of the DataFrame."
+    ]
+  },
+  {
+    "api_name": "df.loc",
+    "instruction": "select specific rows and columns from a DataFrame using labels",
+    "variants": [
+      "Filter rows and columns in a DataFrame by their labels.",
+      "Extract specific rows and columns from a DataFrame using label-based indexing.",
+      "Retrieve selected rows and columns from a DataFrame using their labels.",
+      "Use label indexing to pick certain rows and columns in a DataFrame.",
+      "Select rows and columns from a DataFrame based on their labels.",
+      "Access specific rows and columns in a DataFrame using label references.",
+      "Choose particular rows and columns from a DataFrame by label.",
+      "Subset a DataFrame by selecting rows and columns with label-based methods.",
+      "Isolate specific rows and columns in a DataFrame using their label identifiers.",
+      "Query a DataFrame for designated rows and columns using label criteria."
+    ]
+  },
+  {
+    "api_name": "df.dropna",
+    "instruction": "remove rows with missing values from a DataFrame",
+    "variants": [
+      "Drop rows containing NaN values from the DataFrame",
+      "Eliminate rows with missing data in the DataFrame",
+      "Remove all rows that have null values in the DataFrame",
+      "Delete rows with any NA values from the DataFrame",
+      "Filter out rows that contain missing values in the DataFrame",
+      "Exclude rows with empty or NaN entries from the DataFrame",
+      "Strip away rows that have any missing values in the DataFrame",
+      "Clean the DataFrame by dropping rows with NaN entries",
+      "Omit rows where any cell is NaN in the DataFrame",
+      "Discard rows with incomplete data from the DataFrame"
+    ]
+  },
+  {
+    "api_name": "df.fillna",
+    "instruction": "fill missing values in a DataFrame with a specified value",
+    "variants": [
+      "Replace NaN values in a DataFrame with a given value.",
+      "Substitute missing data in a DataFrame with a specified value.",
+      "Fill NA/NaN entries in a DataFrame with a predefined value.",
+      "Impute null values in a DataFrame with a chosen value.",
+      "Populate empty cells in a DataFrame with a particular value.",
+      "Complete missing entries in a DataFrame using a specified replacement.",
+      "Set a default value for all missing data points in a DataFrame.",
+      "Replace absent values in a DataFrame with a designated value.",
+      "Fill DataFrame gaps with a specified constant.",
+      "Use a given value to replace all null entries in a DataFrame."
+    ]
+  },
+  {
+    "api_name": "df.sort_values",
+    "instruction": "sort a DataFrame by one or more columns",
+    "variants": [
+      "Arrange a DataFrame based on one or multiple columns.",
+      "Order a DataFrame using specified column(s).",
+      "Reorganize a DataFrame by sorting along one or more columns.",
+      "Sort the rows of a DataFrame according to one or more column values.",
+      "Rearrange a DataFrame in ascending or descending order of selected columns.",
+      "Rank a DataFrame by values in one or more columns.",
+      "Sort the entries in a DataFrame based on column(s).",
+      "Reorder a DataFrame by sorting one or more columns.",
+      "Organize a DataFrame by arranging rows according to column values.",
+      "Apply sorting to a DataFrame using one or more columns as the key."
+    ]
+  },
+  {
+    "api_name": "df.query",
+    "instruction": "filter a DataFrame using a condition",
+    "variants": [
+      "Select rows from a DataFrame based on a condition.",
+      "Extract rows from a DataFrame that meet a specific criteria.",
+      "Apply a filter to a DataFrame to retrieve matching rows.",
+      "Subset a DataFrame according to a given condition.",
+      "Retrieve only the rows in a DataFrame that satisfy a condition.",
+      "Use a boolean condition to filter rows in a DataFrame.",
+      "Query a DataFrame to get rows that match a certain condition.",
+      "Filter out rows in a DataFrame that do not meet a specified condition.",
+      "Conditionally select data from a DataFrame.",
+      "Restrict a DataFrame to rows that fulfill a particular requirement."
+    ]
+  },
+  {
+    "api_name": "df.duplicated",
+    "instruction": "identify duplicate rows in a DataFrame",
+    "variants": [
+      "Find duplicate rows in a DataFrame",
+      "Detect duplicated rows in a DataFrame",
+      "Locate duplicate entries in a DataFrame",
+      "Check for duplicate rows in a DataFrame",
+      "Flag repeated rows in a DataFrame",
+      "Identify rows with duplicates in a DataFrame",
+      "Determine duplicate records in a DataFrame",
+      "Extract duplicate rows from a DataFrame",
+      "Search for duplicated rows in a DataFrame",
+      "Return all duplicate rows in a DataFrame"
+    ]
+  },
+  {
+    "api_name": "df.value_counts",
+    "instruction": "count unique values in a column",
+    "variants": [
+      "**Determine the number of distinct values in a column**",
+      "**Find the count of unique entries in a column**",
+      "**Calculate how many different values exist in a column**",
+      "**Get the unique value count for a column**",
+      "**Count the number of non-duplicate values in a column**",
+      "**Compute the distinct value count in a column**",
+      "**Retrieve the number of unique elements in a column**",
+      "**Obtain the count of unique occurrences in a column**",
+      "**Identify the total unique values present in a column**",
+      "**Summarize the distinct values in a column by count**"
+    ]
+  },
+  {
+    "api_name": "df.astype",
+    "instruction": "change the data type of a column",
+    "variants": [
+      "Convert the column to a different data type.",
+      "Modify the data type of a column.",
+      "Alter the column's data type.",
+      "Update the column to a new data type.",
+      "Cast the column to a different type.",
+      "Change the dtype of a column.",
+      "Transform the column's data type.",
+      "Adjust the column's type to a different one.",
+      "Recast the column to another data type.",
+      "Switch the data type of a column."
+    ]
+  },
+  {
+    "api_name": "df.replace",
+    "instruction": "replace specific values in a column",
+    "variants": [
+      "Substitute particular values in a column.",
+      "Update specific entries within a column.",
+      "Modify certain values in a column.",
+      "Replace selected entries in a column.",
+      "Change specific elements in a column.",
+      "Swap particular values in a column.",
+      "Overwrite certain entries in a column.",
+      "Alter specific data points in a column.",
+      "Exchange designated values in a column.",
+      "Transform specified entries in a column."
+    ]
+  },
+  {
+    "api_name": "df.set_index",
+    "instruction": "set a column as the index of the DataFrame",
+    "variants": [
+      "Make a column the DataFrame's index",
+      "Assign a column to be the index of the DataFrame",
+      "Use a column as the DataFrame's index",
+      "Set the index of the DataFrame to a specific column",
+      "Change the DataFrame's index to a column",
+      "Convert a column into the DataFrame's index",
+      "Designate a column as the index in the DataFrame",
+      "Specify a column as the DataFrame's index",
+      "Update the DataFrame's index using a column",
+      "Switch the DataFrame's index to a column"
+    ]
+  },
+  {
+    "api_name": "df.reset_index",
+    "instruction": "reset the index of the DataFrame",
+    "variants": [
+      "Reset the DataFrame's index.",
+      "Restore the default index for the DataFrame.",
+      "Clear the current index of the DataFrame.",
+      "Reinitialize the DataFrame's index.",
+      "Remove the existing index and reset it to the default integer index.",
+      "Convert the current index to default sequential numbering.",
+      "Drop the current index and create a new default one.",
+      "Revert the DataFrame's index to its original state.",
+      "Reset the index labels to their default integer values.",
+      "Set the DataFrame's index back to the default range index."
+    ]
+  },
+  {
+    "api_name": "df.rename",
+    "instruction": "rename columns in a DataFrame",
+    "variants": [
+      "Change the column names in a DataFrame",
+      "Modify the column labels of a DataFrame",
+      "Update the headers of a DataFrame",
+      "Alter the column identifiers in a DataFrame",
+      "Adjust the names of columns in a DataFrame",
+      "Replace the column titles in a DataFrame",
+      "Redefine the column headings in a DataFrame",
+      "Transform the column names in a DataFrame",
+      "Revise the column naming in a DataFrame",
+      "Reassign the names of columns in a DataFrame"
+    ]
+  },
+  {
+    "api_name": "df.concat",
+    "instruction": "concatenate multiple DataFrames",
+    "variants": [
+      "Combine several DataFrames into one.",
+      "Merge multiple DataFrames together.",
+      "Join multiple DataFrames into a single DataFrame.",
+      "Stack multiple DataFrames vertically or horizontally.",
+      "Append multiple DataFrames into one combined DataFrame.",
+      "Unite several DataFrames into a single structure.",
+      "Link multiple DataFrames sequentially.",
+      "Bind multiple DataFrames row-wise or column-wise.",
+      "Aggregate multiple DataFrames into one unified DataFrame.",
+      "Chain multiple DataFrames together into a single DataFrame."
+    ]
+  },
+  {
+    "api_name": "df.isnull",
+    "instruction": "check for missing values in a DataFrame",
+    "variants": [
+      "Identify any missing values in the DataFrame.",
+      "Detect null or NaN values in the DataFrame.",
+      "Find where data is missing in the DataFrame.",
+      "Locate NaN entries in the DataFrame.",
+      "Check if there are any null values in the DataFrame.",
+      "Scan the DataFrame for missing data.",
+      "Examine the DataFrame for any absent values.",
+      "Determine whether the DataFrame contains missing entries.",
+      "Search for NA or NaN values in the DataFrame.",
+      "Verify the presence of missing data in the DataFrame."
+    ]
+  },
+  {
+    "api_name": "df.sample",
+    "instruction": "randomly sample rows from a DataFrame",
+    "variants": [
+      "Select a random subset of rows from a DataFrame",
+      "Extract random rows from a DataFrame",
+      "Get a random sample of records from a DataFrame",
+      "Retrieve randomly chosen rows from a DataFrame",
+      "Draw a random selection of rows from a DataFrame",
+      "Pick random rows from a DataFrame",
+      "Generate a random sample of DataFrame rows",
+      "Obtain a random set of rows from a DataFrame",
+      "Randomly choose rows from a DataFrame",
+      "Sample rows at random from a DataFrame"
+    ]
+  },
+  {
+    "api_name": "df.nunique",
+    "instruction": "count the number of unique values per column",
+    "variants": [
+      "Calculate the count of distinct values for each column",
+      "Determine the number of unique entries in every column",
+      "Find how many different values exist per column",
+      "Compute the unique value count for each column",
+      "Get the distinct value tally for all columns",
+      "Count unique elements in each column of the dataframe",
+      "Enumerate the number of non-repeating values per column",
+      "Summarize the unique occurrences in every column",
+      "Identify the count of unique data points for each column",
+      "Measure the uniqueness of values column-wise"
+    ]
+  },
+  {
+    "api_name": "df.to_csv",
+    "instruction": "export a DataFrame to a CSV file",
+    "variants": [
+      "Save the DataFrame as a CSV file.",
+      "Write the DataFrame to a CSV file.",
+      "Convert the DataFrame to a CSV file and save it.",
+      "Store the DataFrame in a CSV format.",
+      "Export the DataFrame data to a comma-separated values file.",
+      "Dump the DataFrame into a CSV file.",
+      "Generate a CSV file from the DataFrame.",
+      "Output the DataFrame to a CSV file.",
+      "Serialize the DataFrame to a CSV format.",
+      "Save the contents of the DataFrame in a CSV file."
+    ]
+  },
+  {
+    "api_name": "df.from_dict",
+    "instruction": "create a DataFrame from a dictionary",
+    "variants": [
+      "Generate a DataFrame using a dictionary",
+      "Convert a dictionary into a DataFrame",
+      "Construct a DataFrame from a dict",
+      "Build a pandas DataFrame from a dictionary",
+      "Create a DataFrame with data from a dictionary",
+      "Initialize a DataFrame using dictionary data",
+      "Form a DataFrame by passing a dictionary",
+      "Make a pandas DataFrame from a dict input",
+      "Produce a DataFrame from dictionary values",
+      "Transform a dictionary into a pandas DataFrame"
+    ]
+  },
+  {
+    "api_name": "df.columns",
+    "instruction": "access the column names of a DataFrame",
+    "variants": [
+      "Retrieve the names of the columns in a DataFrame.",
+      "Get the list of column labels from a DataFrame.",
+      "Extract the column headers of a DataFrame.",
+      "Obtain the column names associated with a DataFrame.",
+      "Fetch the labels for all columns in a DataFrame.",
+      "Display the names of the DataFrame's columns.",
+      "Return the column titles of a DataFrame.",
+      "List all the column names present in the DataFrame.",
+      "Check what columns are available in the DataFrame.",
+      "Inspect the column headings of a DataFrame."
+    ]
+  },
+  {
+    "api_name": "df.index",
+    "instruction": "access the index of a DataFrame",
+    "variants": [
+      "Retrieve the index of a DataFrame.",
+      "Get the index from a DataFrame.",
+      "Obtain the index of a pandas DataFrame.",
+      "Extract the index of a DataFrame.",
+      "Return the index of a DataFrame.",
+      "Access the DataFrame's index.",
+      "Fetch the index of a DataFrame.",
+      "Display the index of a DataFrame.",
+      "Check the index of a DataFrame.",
+      "View the index of a DataFrame."
+    ]
+  },
+  {
+    "api_name": "df.memory_usage",
+    "instruction": "get memory usage of a DataFrame",
+    "variants": [
+      "Retrieve the memory consumption of a DataFrame.",
+      "Calculate the memory usage of a pandas DataFrame.",
+      "Determine how much memory a DataFrame occupies.",
+      "Fetch the memory footprint of a DataFrame.",
+      "Obtain the amount of memory used by a DataFrame.",
+      "Measure the memory utilization of a DataFrame.",
+      "Check the memory allocation for a given DataFrame.",
+      "Assess the memory requirements of a DataFrame.",
+      "Display the memory usage statistics of a DataFrame.",
+      "Return the memory consumption details for a DataFrame."
+    ]
+  }
+]

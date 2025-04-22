@@ -1,0 +1,5 @@
+{
+  "provider": "deepseek",
+  "api_url": "https://api.siliconflow.cn/v1/chat/completions",
+  "api_key": "sk-lwzbxrvsvapjubasvaorxgbjbutyruqvfpsbqmblkyvmybbl"
+}
